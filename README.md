@@ -25,6 +25,7 @@ Ocean Proximity
 Median House Value (Target Variable)
 
 Project Workflow
+
 1️⃣ Data Collection
 
 Loading the California housing dataset
