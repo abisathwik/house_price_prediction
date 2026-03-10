@@ -14,14 +14,23 @@ Dataset
 The project uses the California Housing dataset, which includes features such as:
 
 Longitude
+
 Latitude
+
 Housing Median Age
+
 Total Rooms
+
 Total Bedrooms
+
 Population
+
 Households
+
 Median Income
+
 Ocean Proximity
+
 Median House Value (Target Variable)
 
 Project Workflow
@@ -29,25 +38,33 @@ Project Workflow
 1️⃣ Data Collection
 
 Loading the California housing dataset
+
 Understanding dataset structure and attributes
 
 2️⃣ Data Exploration
 
 Statistical analysis of features
+
 Visualizations to understand distributions and correlations
+
 Geographical price analysis
 
 3️⃣ Data Preprocessing
 
 Handling missing values
+
 Encoding categorical variables
+
 Feature scaling and normalization
 
 4️⃣ Feature Engineering
 
 New features were created to improve model performance:
+
 rooms_per_household
+
 population_per_household
+
 bedrooms_per_room
 
 5️⃣ Machine Learning Pipeline
@@ -59,27 +76,37 @@ A Scikit-Learn Pipeline is used to automate preprocessing and ensure consistent 
 The following regression models were trained and evaluated:
 
 Linear Regression
+
 Decision Tree Regressor
+
 Random Forest Regressor
 
 7️⃣ Hyperparameter Tuning
 
 Model performance is improved using:
+
 RandomizedSearchCV
+
 Cross-validation
 
 8️⃣ Model Evaluation
 
 Performance is measured using:
+
 Root Mean Squared Error (RMSE)
+
 Cross-validation scores
 
 Technologies Used : 
 
 Python
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 Scikit-Learn
 
 Google Colab
